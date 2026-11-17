@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "jerusalem-weather": {
+      "type": "stdio",
+      "command": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+      "args": [
+        "-m",
+        "jerusalem_weather_mcp"
+      ]
+    }
+  }
+}
